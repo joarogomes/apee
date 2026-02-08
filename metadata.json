@@ -1,0 +1,7 @@
+{
+  "name": "APE - Academia Profissional de Eletromedicina",
+  "description": "Website institucional e plataforma de cursos para o centro de formação profissional em eletromedicina, focado em engenharia clínica e manutenção de equipamentos médicos.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
