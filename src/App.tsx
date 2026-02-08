@@ -1,16 +1,16 @@
 
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { 
-  Menu, X, BookOpen, Award, 
+  Menu, X, Award, 
   MessageSquare, Phone, Mail, MapPin, 
-  ChevronRight, Play, CheckCircle2, 
+  ChevronRight, CheckCircle2, 
   Zap, Building2, HelpCircle,
   Clock, Activity, Microscope, ShieldCheck,
-  Search, Filter, SlidersHorizontal,
-  Cpu, Users, Calendar, Ticket, Video
+  Search,
+  Cpu, Users, Calendar, Ticket
 } from 'lucide-react';
-import { Logo, COLORS } from './constants';
+import { Logo } from './constants';
 import type { Course, Event } from './types';
 
 // --- HELPER: Scroll to top on route change ---

@@ -1,5 +1,4 @@
 
-import React from 'react';
 
 export const COLORS = {
   navy: '#003366',
